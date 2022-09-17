@@ -2,6 +2,8 @@ const fileServices = require('./fileService');
 const errors = require('../helpers/constants');
 const uuid = require("uuid");
 
+I would use postgresql and sequalize for this app. You will feel more like BE dev with those techs. If any questions text me. Good lick :)
+
 const findAllUsers = async (status) => {
     const existUsers = await fileServices.readUserData();
     if (!existUsers) {
